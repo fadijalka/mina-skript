@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #!/bin/bash
 FILES=/etc/*
@@ -17,3 +18,6 @@ do
 		zip -rv "$date_today.zip" "$f"
 	fi
 done
+=======
+tar -cvf backup-$(date &apos;+%Y&apos;).tar backup</pre>
+>>>>>>> b53b7ebf46be5bab5d69ff55651e35aca06370a7
