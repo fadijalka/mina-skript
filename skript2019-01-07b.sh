@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 if [ -x "$file" ] && file "$file" | grep -q "Mach-O"
 then
     echo "This is an executable Mac file"

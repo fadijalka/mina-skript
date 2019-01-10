@@ -1,5 +1,4 @@
-
-!/bin/bash
+#!/bin/bash
 var="${1##*/}" #substring som matchar filnamnet i URLen
 
 

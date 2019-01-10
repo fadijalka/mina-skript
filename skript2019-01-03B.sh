@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 var=`sudo find /usr/share -size 1M`
 sudo mkdir /home/backup/
 sudo mkdir /home/arkiv/
